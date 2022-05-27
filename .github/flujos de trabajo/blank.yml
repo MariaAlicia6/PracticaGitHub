@@ -33,6 +33,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./SimpleWhaleDemo-master/Dockerfile
+          file: ./PracticaGitHub/getting-started-master/app/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:latest
